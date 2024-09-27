@@ -1,0 +1,52 @@
+/*
+Theme Name: Hello Elementor Child
+Theme URI: https://studionumerik.fr/
+Description: Hello Elementor Child Theme
+Author: Studio Numerik
+Author URL: https://studionumerik.fr/
+Template: hello-elementor
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URL: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: hello-elementorchild
+*/
+/* Placer votre CSS ci-dessous */
+
+.deux-colonnes{
+font-family: Syne;
+font-size: 20px;
+font-weight: 400;
+color: white;
+display:flex;
+flex-direction:row;
+justify-content:center;
+}
+
+.submit-planty{
+    
+}
+
+.wpcf7-form input[your-name], .wpcf7-form input[email]{
+    background: white;
+    border-radius: 5px 5px 5px 5px;
+    border-style: white;
+    font-family: Syne;
+    height:71px;
+    }
+    
+    .wpcf7-form input[message] {
+    background: white;
+    border-radius: 5px 5px 5px 5px;
+    border-style:white;
+    font-family: Syne;
+    height:237px;
+    }
+    
+    .wpcf7-form input[label] {
+    font-family: Syne;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    padding: 15px 0 15px 0;
+    }
