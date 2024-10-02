@@ -40,15 +40,27 @@ font-weight: 700;
 text-align: left;
 }
 
-.submit-planty{
-    text-align:center;
-    padding-top: 40px;
-}
-
 .wpcf7-form input[your-name], .wpcf7-form input[email]{
 height:71px;
 }
     
 .wpcf7-form input[message] {
 height:237px;
+}
+
+.commande {
+    font-family: Syne;
+    text-align:center;
+    background-color: white;
+    width: 39px;
+height: 56px;
+display:flex;
+justify-content: space-between;
+margin-left:120px;
+margin-right:180px;
+padding-bottom: 60px;
+}
+
+.conteneur-commander border{
+    padding-bottom: 50px;
 }
