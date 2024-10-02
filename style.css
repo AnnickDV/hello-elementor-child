@@ -13,40 +13,42 @@ Text Domain: hello-elementorchild
 /* Placer votre CSS ci-dessous */
 
 .deux-colonnes{
-font-family: Syne;
-font-size: 20px;
-font-weight: 400;
-color: white;
-display:flex;
-flex-direction:row;
-justify-content:center;
-}
-
-.submit-planty{
-    
-}
-
-.wpcf7-form input[your-name], .wpcf7-form input[email]{
-    background: white;
-    border-radius: 5px 5px 5px 5px;
-    border-style: white;
-    font-family: Syne;
-    height:71px;
-    }
-    
-    .wpcf7-form input[message] {
-    background: white;
-    border-radius: 5px 5px 5px 5px;
-    border-style:white;
-    font-family: Syne;
-    height:237px;
-    }
-    
-    .wpcf7-form input[label] {
     font-family: Syne;
     font-size: 20px;
     font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-    padding: 15px 0 15px 0;
+    color: white;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+
+.column-left {
+border-right:1px solid white;
+padding-right: 85px;
+max-width: 549px;
+}
+
+.column-right {
+    padding-left: 85px;
+    max-width: 549px;
     }
+
+.form-title{
+    font-family: Syne;
+font-size: 30px;
+font-weight: 700;
+text-align: left;
+}
+
+.submit-planty{
+    text-align:center;
+    padding-top: 40px;
+}
+
+.wpcf7-form input[your-name], .wpcf7-form input[email]{
+height:71px;
+}
+    
+.wpcf7-form input[message] {
+height:237px;
+}
