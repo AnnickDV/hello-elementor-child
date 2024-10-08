@@ -40,11 +40,18 @@ width: 45%;
     text-align: left;
     }
 
-.submit-planty{
+.submit-commander{
     display:flex;
     justify-content: center;
     padding-top: 40px;
     padding-left: 75px;
+}
+
+.submit-rencontrer{
+    display:flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 50px;
 }
 
 .wpcf7-form input[your-name], .wpcf7-form input[email]{
