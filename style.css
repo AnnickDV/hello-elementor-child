@@ -25,40 +25,48 @@ Text Domain: hello-elementorchild
 .column-left {
 border-right:1px solid white;
 padding-right: 85px;
-max-width: 549px;
+width: 45%;
 }
 
 .column-right {
     padding-left: 85px;
-    max-width: 549px;
+width: 45%;
     }
 
-.form-title{
-    font-family: Syne;
-font-size: 30px;
-font-weight: 700;
-text-align: left;
+    .form-title{
+        font-family: Syne;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    }
+
+.submit-planty{
+    display:flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-left: 75px;
 }
 
 .wpcf7-form input[your-name], .wpcf7-form input[email]{
-height:71px;
-}
-    
-.wpcf7-form input[message] {
-height:237px;
-}
+    height:71px;
+    font-family: Syne;
+    font-size: 30px;
+    font-color:black;
+    }
+        
+.wpcf7-form input[message]{
+        max-height:180x;
+        font-family: Syne;
+        font-size: 30px;
+        font-color:black;
+        }
 
-.commande {
+.commande input {
     font-family: Syne;
     text-align:center;
     background-color: white;
-    width: 39px;
-height: 56px;
-display:flex;
-justify-content: space-between;
-margin-left:120px;
-margin-right:180px;
-padding-bottom: 60px;
+border-radius :0px !important;
+height:50px;
 }
 
 .conteneur-commander border{
