@@ -51,22 +51,24 @@ width: 45%;
     display:flex;
     justify-content: center;
     padding-top: 20px;
-    padding-left: 50px;
+    padding-left: 60px;
 }
 
 .wpcf7-form input[your-name], .wpcf7-form input[email]{
-    height:71px;
     font-family: Syne;
     font-size: 30px;
     font-color:black;
     }
         
 .wpcf7-form input[message]{
-        max-height:180x;
         font-family: Syne;
         font-size: 30px;
         font-color:black;
         }
+
+.wpcf7-form textarea {
+max-height: 237px;
+            }
 
 .commande input {
     font-family: Syne;
@@ -80,3 +82,6 @@ height:50px;
     padding-bottom: 50px;
 }
 
+@media only screen and (min-width: 300px)(max-width:1023px){ 
+	
+}
