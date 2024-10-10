@@ -82,6 +82,43 @@ height:50px;
     padding-bottom: 50px;
 }
 
-@media only screen and (min-width: 300px)(max-width:1023px){ 
-	
+@media screen and (max-width:760px){
+    .deux-colonnes{
+        font-size: 16px;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+    }
+
+    .column-left {
+        padding-right: 0px;
+        width: 100%;
+        border-right:none;
+        }
+        
+        .column-right {
+            padding-left: 0px;
+        width: 100%;
+            }
+        
+            .form-title{
+                font-family: Syne;
+            font-size: 20px;
+            font-weight: 700;
+            text-align: left;
+            }
+        
+        .submit-commander{
+            display:flex;
+            justify-content: center;
+            padding-top: 30px;
+            padding-left: 75px;
+        }
+        
+        .submit-rencontrer{
+            display:flex;
+            justify-content: center;
+            padding-top: 30px;
+            padding-left: 60px;
+        }
 }
