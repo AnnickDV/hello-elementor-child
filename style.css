@@ -57,13 +57,13 @@ width: 45%;
 .wpcf7-form input[your-name], .wpcf7-form input[email]{
     font-family: Syne;
     font-size: 30px;
-    font-color:black;
+    color:black;
     }
         
 .wpcf7-form input[message]{
         font-family: Syne;
         font-size: 30px;
-        font-color:black;
+        color:black;
         }
 
 .wpcf7-form textarea {
@@ -82,7 +82,7 @@ height:50px;
     padding-bottom: 50px;
 }
 
-@media screen and (max-width:760px){
+@media screen and (max-width:767px){
     .deux-colonnes{
         font-size: 16px;
         display:flex;
@@ -112,13 +112,17 @@ height:50px;
             display:flex;
             justify-content: center;
             padding-top: 30px;
-            padding-left: 75px;
+            padding-bottom: 20px;
+        }
+        
+        input[type="submit"]{
+padding:15px !important;
         }
         
         .submit-rencontrer{
             display:flex;
             justify-content: center;
             padding-top: 30px;
-            padding-left: 60px;
+            padding-bottom: 20px;
         }
 }
