@@ -12,6 +12,7 @@ Text Domain: hello-elementorchild
 */
 /* Placer votre CSS ci-dessous */
 
+/* Formulaire COMMANDER */
 .deux-colonnes{
     font-family: Syne;
     font-size: 20px;
@@ -47,6 +48,8 @@ width: 45%;
     padding-left: 75px;
 }
 
+/* Formulaire RENCONTRER */
+
 .submit-rencontrer{
     display:flex;
     justify-content: center;
@@ -81,6 +84,8 @@ height:50px;
 .conteneur-commander border{
     padding-bottom: 50px;
 }
+
+/* MEDIA QUERIES */
 
 @media screen and (max-width:767px){
     .deux-colonnes{
