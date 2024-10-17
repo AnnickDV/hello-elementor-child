@@ -85,9 +85,14 @@ height:50px;
     padding-bottom: 50px;
 }
 
+.admin{
+    display:flex;
+    justify-content: left;
+}
+
 /* MEDIA QUERIES */
 
-@media screen and (max-width:767px){
+@media screen and (min-width:360px) and (max-width:767px){
     .deux-colonnes{
         font-size: 16px;
         display:flex;
@@ -130,4 +135,10 @@ padding:15px !important;
             padding-top: 30px;
             padding-bottom: 20px;
         }
+
+        .burger {
+            display:flex;
+            justify-content: center;
+                    }
+
 }
